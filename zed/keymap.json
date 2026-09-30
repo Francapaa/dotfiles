@@ -1,0 +1,17 @@
+// Zed keymap personal. Ver: https://zed.dev/docs/key-bindings
+// Este archivo no existía en tu PC, se crea como base.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-shift-p": "command_palette::Toggle",
+      "ctrl-`": "terminal_panel::Toggle"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-s": "buffer::Save"
+    }
+  }
+]

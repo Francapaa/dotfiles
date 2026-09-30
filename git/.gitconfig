@@ -1,0 +1,14 @@
+# .gitconfig template — público, sin email real.
+# El install deja user.name/email si ya existen, si no usa DOTFILES_GIT_* del .env.
+[user]
+  name = TU_NOMBRE
+  email = TU_EMAIL@example.com
+[init]
+  defaultBranch = main
+[core]
+  autocrlf = true
+  editor = code --wait
+[pull]
+  rebase = false
+[push]
+  autoSetupRemote = true

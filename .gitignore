@@ -1,0 +1,48 @@
+# dotfiles — público. NUNCA subir secretos.
+# .env real
+.env
+.env.local
+*.env
+
+# SSH — nunca claves privadas
+**/id_ed25519
+**/id_rsa
+**/*.pem
+**/*.key
+**/*.pfx
+.ssh/
+
+# Tokens / credenciales
+**/*token*
+**/*secret*
+**/credentials.json
+.opencode/auth.json
+.claude/.credentials.json
+**/.claude.json
+
+# Caches, binarios, DBs
+node_modules/
+**/node_modules/
+*.sqlite*
+*.log
+*.bak*
+*~
+.DS_Store
+Thumbs.db
+
+# Zed local (solo settings/keymap/AGENTS se versionan)
+# No subir db, logs, crash-handler, extensions binarias
+db/
+logs/
+extensions/installed/
+extensions/staging/
+extensions/work/
+
+# Opencode tmp
+.opencode/tmp/
+tmp/
+
+# OS / editores
+.vscode/*
+!.vscode/extensions.json
+.idea/

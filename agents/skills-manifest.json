@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "public": [
+    {
+      "name": "supabase-postgres-best-practices",
+      "sourceUrl": "https://github.com/supabase/agent-skills.git",
+      "skillPath": "skills/supabase-postgres-best-practices/SKILL.md"
+    },
+    {
+      "name": "emil-design-eng",
+      "sourceUrl": "https://github.com/emilkowalski/skill.git",
+      "skillPath": "skills/emil-design-eng/SKILL.md"
+    }
+  ],
+  "note": "Las skills privadas viven en SKILLS_PRIVATE_REPO (ver .env.example), no en este repo."
+}

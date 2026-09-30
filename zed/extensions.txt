@@ -1,0 +1,6 @@
+# Zed extensions — lista, no binarios.
+# Reinstalar con: zed extensions install <id>
+# Generado desde %LOCALAPPDATA%\Zed\extensions\work
+emmet
+html
+powershell
